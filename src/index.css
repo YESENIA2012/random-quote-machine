@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.box-container {
+  font-weight: 400;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 550px;
+  height: 320px;
+  background-color: white;
+}
+
+.text{
+  font-size: 30px;
+  margin: 40px;
+}
+
+.author{
+  margin-left: 370px;
+  margin-bottom: 20px;
+}
+
+.buttons{
+  display: flex;
+}
+
+.share-quote{
+  text-decoration: none;
+}
+
+svg.svg-inline--fa.fa-twitter, svg.svg-inline--fa.fa-tumblr{
+  display: grid;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 20px;
+  height: 38px;
+  width: 35px;
+  color: white;
+  border-radius: 5px;
+}
+
+.new-quote{
+  margin-left: 285px;
+  color: white;
+  width: 90px;
+  height: 38px;
+  border-radius: 5px;
+  border: none;
+}
