@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTumblr } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+
 class Bodybox extends React.Component {
   constructor(props) {
     super(props);
