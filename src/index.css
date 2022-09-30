@@ -72,3 +72,22 @@ svg.svg-inline--fa.fa-twitter, svg.svg-inline--fa.fa-tumblr{
 .new-quote:hover{
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .box-container{
+    height: 950px;
+    width: 460px;
+  }
+  
+  .quote-box {
+    width: 430px;
+  }
+
+  .author{
+    margin-left: 270px;
+  }
+
+  .new-quote{
+     margin-left: 200px;
+  }
+}
